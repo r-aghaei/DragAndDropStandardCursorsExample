@@ -16,11 +16,6 @@ namespace DragAndDropCursorsExample
         {
             InitializeComponent();
         }
-        protected override void OnDragDrop(DragEventArgs drgevent)
-        {
-            
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
             button1.Cursor = DragDropCursors.None;
